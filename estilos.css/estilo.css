@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Hanken+Grotesk:wght@100&family=Montserrat:wght@100;200;300;400;500;600;700&family=Outfit:wght@300;400;600&family=Work+Sans:wght@400;600;700&display=swap');
 
-
-*{
+* {
     padding: 0;
     margin: 0;
+    font-size: 62.5%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,13 +14,80 @@ body{
     min-height: 100vh;
     background-color: #F4D04E;
 }
-article{
+
+main {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    box-shadow: 0.6rem 0.8rem;
+
 }
-img{
-    width: 90%;
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+figure {}
+
+img {
+    width: 31rem;
+    border-radius: 1rem;
+}
+
+.primeiro-str {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #F4D04E;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Figtree', sans-serif;
+}
+
+span {
+    font-size: 1.3rem;
+    font-family: 'Figtree', sans-serif;
+
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-family: 'Figtree', sans-serif;
+
+}
+
+p {
+    color: #a9a9a9;
+    font-size: 1.5rem;
+    font-family: 'Figtree', sans-serif;
+    width: 31rem;
+    background-color: rgba(0, 255, 255, 0);
+
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-style: normal;
+}
+
+.autor {
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.5rem;
+}
+
+.autor-foto {
+    width: 4rem;
 }
